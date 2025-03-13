@@ -18,4 +18,21 @@ function nextGreaterElement(arr) {
         }
     }
 return newArray;}
-console.log(nextGreaterElement([4, 5, 2, 10, 8]))
+//console.log(nextGreaterElement([4, 5, 2, 10, 8]))
+
+// 2) reversed word
+
+function reversedWord(word) {
+     let reversed=''
+    for (let i = word.length; i >= 0; i--) {
+    reversed+=word.charAt(i)
+    }
+
+return reversed;
+}
+
+//console.log(reversedWord("Hello"))
+
+
+//3)
+
